@@ -1,0 +1,26 @@
+{
+  "name": "virtualstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ali-Raza-099/virtualStore.git"
+  },
+  "author": "Ali Raza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ali-Raza-099/virtualStore/issues"
+  },
+  "homepage": "https://github.com/Ali-Raza-099/virtualStore#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1"
+  }
+}
